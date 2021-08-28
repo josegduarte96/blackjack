@@ -73,7 +73,7 @@ const miModulo = (() =>{
 
         const imgCarta = document.createElement('img');
         imgCarta.classList.add('carta');
-        imgCarta.src = ` /assets/cartas/${carta}.png `;
+        imgCarta.src = ` ./assets/cartas/${carta}.png `;
         (turno === "jugador") ? divCartasJugador.append(imgCarta) : divCartasComputadora.append(imgCarta)
     }
 
