@@ -1,0 +1,53 @@
+*, html, body {
+    background-color: rgb(29, 85, 29);
+    margin: 0;
+    padding: 0;
+
+}
+#titulo {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px
+}
+
+.container{
+    width: 100% !important;
+}
+@media (min-width: 992px) {
+    .container{
+        max-width: 100% !important;
+    }
+}
+
+.carta{
+    width: 120px;
+    position: relative;
+    left: 70px;
+    margin-left: -75px;
+    border-radius: 15px;
+}
+
+#computadora-cartas, #jugador-cartas{
+    height: 200px;
+}
+
+h4{
+    cursor: pointer;
+}
+li{
+    font-size: 13px;
+}
+ul{
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+    height: 1px;
+    list-style-type: none;
+}
+.visible {
+ opacity: 1;
+ transition: opacity 0.2s ease-in;
+ height: auto;
+}
